@@ -19,7 +19,7 @@
 	            if(data.match('successbully')) {
 	                isLogged = true;
 	                alert("JS - SUCCESS");
-	                $.mobile.changePage("#home");
+	                $.mobile.changePage("#homer");
 	            }
 	            else {
 	                alert("JS - You entered the wrong username or password. Please try again.");
